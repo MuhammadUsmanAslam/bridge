@@ -10,8 +10,12 @@ function Navbar() {
 	return (
 		<nav className="navbar">
 			<div className="navbar__left">
-				<MenuIcon className="navbar__menuicon" />
-				<img src={logo} alt="logo" className="navbar__logo" />
+				<div className="navbar__menuiconcontainer">
+					<MenuIcon className="navbar__menuicon" />
+				</div>
+				<div className="navbar__logocontainer">
+					<img src={logo} alt="logo" className="navbar__logo" />
+				</div>
 			</div>
 			<ul className="navbar__list-items">
 				<li className="navbar__list-item">Home</li>
