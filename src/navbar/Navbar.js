@@ -10,20 +10,22 @@ function Navbar() {
 	return (
 		<nav className="navbar">
 			<div className="navbar__left">
-				<div className="navbar__menuiconcontainer">
+				<div className="navbar__menuicon-container">
 					<MenuIcon className="navbar__menuicon" />
 				</div>
-				<div className="navbar__logocontainer">
+				<div className="navbar__logo-container">
 					<img src={logo} alt="logo" className="navbar__logo" />
 				</div>
 			</div>
-			<ul className="navbar__list-items">
-				<li className="navbar__list-item">Home</li>
-				<li className="navbar__list-item">About</li>
-				<li className="navbar__list-item">Menu</li>
-				<li className="navbar__list-item">Reservations</li>
-				<li className="navbar__list-item">Contact</li>
-			</ul>
+			<div className="navbar__center">
+				<ul className="navbar__list-items">
+					<li className="navbar__list-item">Home</li>
+					<li className="navbar__list-item">About</li>
+					<li className="navbar__list-item">Menu</li>
+					<li className="navbar__list-item">Reservations</li>
+					<li className="navbar__list-item">Contact</li>
+				</ul>
+			</div>
 			<div className="navbar__right">
 				<div className="navbar__social-icons">
 					<FacebookIcon className="navbar__social-icon" />
