@@ -1,10 +1,10 @@
 import React from "react";
 import "./Menu.scss";
 
-function Menu() {
+function Menu({ className }) {
 	return (
-		<div className="menu">
-			<ul className="menu__items">
+		<div className={`menu menu--display `}>
+			<ul className={`menu__items ${className}`}>
 				<li className="menu__item">Home</li>
 				<li className="menu__item">About</li>
 				<li className="menu__item">Menu</li>

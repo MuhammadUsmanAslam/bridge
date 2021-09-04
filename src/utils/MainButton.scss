@@ -1,0 +1,17 @@
+@use "../colors" as *;
+.main-button {
+	// color: blueviolet;
+	letter-spacing: 0.1em;
+	padding: 0.5em 2.0555555555555554em;
+	font-size: 1em;
+	cursor: pointer;
+	background-color: Transparent;
+	outline: none;
+	border: 1px solid $color-secondary;
+	color: $color-secondary;
+	display: inline-block;
+}
+.main-button:hover {
+	background-color: $color-secondary;
+	color: $color-primary;
+}

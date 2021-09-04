@@ -1,0 +1,17 @@
+@use "../colors" as *;
+.social {
+	display: flex;
+	align-items: center;
+	padding: 0 1em 0 0;
+
+	&__icon {
+		cursor: pointer;
+		color: $color-secondary;
+		width: 1.5em;
+		height: 1.5em;
+		margin: 0 0.3em;
+	}
+	&__icon:hover {
+		color: $color-tertiary;
+	}
+}

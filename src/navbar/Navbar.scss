@@ -45,37 +45,38 @@
 		display: flex;
 		min-width: 320px;
 	}
-	&__social-icons {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0 1em 0 0;
-	}
-	&__social-icon {
-		cursor: pointer;
-		color: $color-secondary;
-		width: 1.5em;
-		height: 1.5em;
-		margin: 0 0.3em;
-	}
-	&__social-icon:hover {
-		color: $color-tertiary;
-	}
-	&__btn {
-		letter-spacing: 0.1em;
-		padding: 0.5em 2.0555555555555554em;
-		font-size: 1em;
-		cursor: pointer;
-		background-color: Transparent;
-		outline: none;
-		border: 1px solid $color-secondary;
-		color: $color-secondary;
-		display: inline-block;
-	}
-	&__btn:hover {
-		background-color: $color-secondary;
-		color: $color-primary;
-	}
+	// &__social-icons {
+	// 	display: flex;
+	// 	align-items: center;
+	// 	justify-content: center;
+	// 	padding: 0 1em 0 0;
+	// }
+	// &__social-icon {
+	// 	cursor: pointer;
+	// 	color: $color-secondary;
+	// 	width: 1.5em;
+	// 	height: 1.5em;
+	// 	margin: 0 0.3em;
+	// }
+	// &__social-icon:hover {
+	// 	color: $color-tertiary;
+	// }
+	// This is other one
+	// &__btn {
+	// 	letter-spacing: 0.1em;
+	// 	padding: 0.5em 2.0555555555555554em;
+	// 	font-size: 1em;
+	// 	cursor: pointer;
+	// 	background-color: Transparent;
+	// 	outline: none;
+	// 	border: 1px solid $color-secondary;
+	// 	color: $color-secondary;
+	// 	display: inline-block;
+	// }
+	// &__btn:hover {
+	// 	background-color: $color-secondary;
+	// 	color: $color-primary;
+	// }
 }
 
 @media (max-width: 1110px) {

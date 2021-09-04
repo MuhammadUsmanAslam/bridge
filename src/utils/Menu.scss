@@ -2,16 +2,21 @@
 
 .menu {
 	&__items {
+		// display: none;
 		list-style: none;
 		font-size: 1.2em;
 	}
 	&__item {
 		font-weight: 300;
 		cursor: pointer;
-		margin: 1em 3em;
+		// margin: 1em 3em;
+		margin: 1em 0em;
 		color: $color-secondary;
 	}
 	&__item:hover {
 		color: $color-tertiary;
+	}
+	&--display {
+		// display: inline;
 	}
 }
