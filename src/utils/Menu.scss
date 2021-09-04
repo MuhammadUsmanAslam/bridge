@@ -12,6 +12,8 @@
 		// margin: 1em 3em;
 		margin: 1em 0em;
 		color: $color-secondary;
+		color: inherit;
+		font-family: inherit;
 	}
 	&__item:hover {
 		color: $color-tertiary;

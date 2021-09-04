@@ -2,14 +2,17 @@ import "./App.scss";
 import Navbar from "./navbar/Navbar";
 import Footer from "./footer/Footer";
 import Menu from "./utils/Menu";
+import Test from "./test/Test";
 
 function App() {
 	return (
 		<div className="app">
-			{/* <h1>App</h1> */}
-			<Navbar />
+			{/* <Navbar /> */}
 			<Footer />
+			{/* Tesing Menu // */}
 			{/* <Menu /> */}
+			{/* Testing Test // */}
+			{/* <Test className="testing" /> */}
 		</div>
 	);
 }

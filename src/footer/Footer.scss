@@ -4,6 +4,7 @@
 	width: 90%;
 	margin: auto;
 	display: flex;
+	align-self: center;
 	justify-content: center;
 	margin: 3em 0;
 	&__section {
@@ -25,8 +26,9 @@
 		line-height: 1.9em;
 	}
 	&__menu {
-		font-family: "Montserrat", sans-serif !important;
-		color: aqua;
+		font-family: "Montserrat", sans-serif;
+		font-size: 1em;
+		// color: aqua !important;
 	}
 	&__social {
 		// align-self: auto;
